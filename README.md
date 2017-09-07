@@ -1,29 +1,29 @@
-# tele_bom_bang_new (or) ENERGY | v11 (or) edit 11
+# tele_LiberBot (or) Masoud_Shar | v11 (or) edit 11
 ستاره یادت نره حمایت کن دمت گرم
 ****************************************************
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev
 
 ************************************************************************
-cd $HOME && git clone https://github.com/telebombang2018/energy && cd energy && chmod +x energy.sh && ./energy.sh install && ./energy.sh
+cd $HOME && git clone https://github.com/telebombang2018/energy && cd LiberBot && chmod +x LiberBot.sh && ./LiberBot.sh install && ./LiberBot.sh
 *****************
 نصب اتولانچ
 --------------
-cd energy 
+cd LiberBot
 
-chmod +x autoenergy.sh 
+chmod +x autoLiberBot.sh 
 
-screen ./autoenergy.sh
+screen ./autoLiberBot.sh
 *****************
 لانچ دوباره
 --------------
 killall screen
 
-cd energy && chmod +x autoenergy.sh && screen ./autoenergy.sh 
+cd LiberBot && chmod +x autoLiberBot.sh && screen ./autoLiberBot.sh 
 
 *****************
 --------------
 کانال ما برای دریافت اپدیت ها و دریافت هلپر
 
-@energy_team
-
-@richenergy
+@LiberBotTeam
+ایدی سازنده سورس
+@LiberBotTeam
