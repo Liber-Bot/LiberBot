@@ -1,7 +1,7 @@
 -----my_name_is_ehsan*#@mafia_boy
 -----@ENERGY_TEAM     FOR UPDATE
 -----لطفا پیام بالا رو پاک نکنید
-local SUDO = 323046540 -- put Your ID here! <===
+local SUDO = 393088958 -- put Your ID here! <===
 function exi_files(cpath)
     local files = {}
     local pth = cpath
