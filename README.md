@@ -4,21 +4,21 @@
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev
 
 ************************************************************************
-cd $HOME && git clone https://github.com/Liber-Bot/LiberBot.git && cd LiberBot && chmod +x LiberBot.sh && ./LiberBot.sh install && ./LiberBot.sh
+cd $HOME && git clone https://github.com/Liber-Bot/LiberBot.git && cd energy && chmod +x energy.sh && ./energy.sh install && ./energy.sh
 *****************
 نصب اتولانچ
 --------------
-cd LiberBot
+cd energy
 
-chmod +x autoLiberBot.sh 
+chmod +x autoenergy.sh 
 
-screen ./autoLiberBot.sh
+screen ./autoenergy.sh
 *****************
 لانچ دوباره
 --------------
 killall screen
 
-cd LiberBot && chmod +x autoLiberBot.sh && screen ./autoLiberBot.sh 
+cd energy && chmod +x autoenergy.sh && screen ./autoenergy.sh 
 
 *****************
 --------------
