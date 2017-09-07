@@ -21,24 +21,24 @@ install() {
 		cd ..
 		chmod +x bot
 		chmod +x tg
-		chmod +x autoenergy.sh
+		chmod +x autoLiberBot.sh
 }
 
 function print_logo() {
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
+	green "         LiberBot  Masoud    RICH         LiberBot"
+	green "         LiberBot  Masoud    RICH         LiberBot"
+	green "         LiberBot  Masoud    RICH         LiberBot"
+	green "         LiberBot  Masoud    RICH         LiberBot"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[2]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[3]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[4]="ENERGY  EHSAN    RICH         ENERGY"
+    txtlogo[1]="LiberBot  Masoud    RICH         LiberBot"
+    txtlogo[2]="LiberBot  Masoud    RICH         LiberBot"
+    txtlogo[3]="LiberBot  Masoud    RICH         LiberBot"
+    txtlogo[4]="LiberBot  Masoud    RICH         LiberBot"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
