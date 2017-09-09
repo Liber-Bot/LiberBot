@@ -23,7 +23,5 @@ cd energy && chmod +x autoenergy.sh && screen ./autoenergy.sh
 *****************
 --------------
 کانال ما برای دریافت اپدیت ها و دریافت هلپر
-
 @LiberBotTeam
-ایدی سازنده سورس
 @LiberBotTeam
