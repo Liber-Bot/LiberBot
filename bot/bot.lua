@@ -116,13 +116,13 @@ An advanced administration bot based on https://valtman.name/telegram-cli
 
 
 》Special thanks to :
-》beyond_permag_bombang
+》beyond_permag_LiberBot
 
 》Our channel :
-》@RICHENERGY%%@energy_team
+》@LiberBotTeam%%@LiberBotTeam
 
 》Our website :
-》http://telebombang.blogfa.com
+》@LiberBotTeam
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
