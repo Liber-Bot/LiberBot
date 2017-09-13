@@ -947,7 +947,7 @@ return chat_list(msg)
 	   tdcli.sendMessage(matches[2], 0, 1, "Group has been removed by admin command", 1, 'html')
     return '_Group_ *'..matches[2]..'* _removed_'
 		end
-if ((matches[1]:lower() == "energy" or matches[1] == 'انرژی' and is_mod(msg))) then
+if ((matches[1]:lower() == "liberbot" or matches[1] == 'لیبربات' and is_mod(msg))) then
 return tdcli.sendMessage(msg.to.id, msg.id, 1, _config.info_text, 1, 'html')
     end
 if ((matches[1]:lower() == "adminlist" or matches[1] == 'لیست دستیار سودو' and is_mod(msg))) and is_admin(msg) then
@@ -1063,7 +1063,7 @@ patterns = {
     "^(ارسال) +(.*) (-%d+)$",
 	"^(افزودن) (-%d+)$",
 	"^(پاک کردن حافظه)$",
-	"^(انرژی)$",
+	"^(لیبر بات)$",
 }, 
 run = run, pre_process = pre_process
 }
