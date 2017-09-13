@@ -1,5 +1,5 @@
------my_name_is_ehsan*#@mafia_boy
------@ENERGY_TEAM     FOR UPDATE
+-----my_name_is_masoud*#@masoud_shar
+-----@LiberBotTeam     FOR UPDATE
 -----لطفا پیام بالا رو پاک نکنید
 local function modadd(msg)
 local hash = "gp_lang:"..msg.chat_id_
