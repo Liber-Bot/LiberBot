@@ -21,7 +21,7 @@ install() {
 		cd ..
 		chmod +x bot
 		chmod +x tg
-		chmod +x autoenergy.sh
+		chmod +x autoliberbot.sh
 }
 
 function print_logo() {
@@ -51,7 +51,7 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function energy_team() {
+function liberbot_team() {
 	echo -e "\e[0m"
 	green "     >>>>                       edir 4 source                                               "
 	green "     >>>>                       liberbot.team and...                                       "
@@ -77,7 +77,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	energy_team
+	_team
 	logo_play
 	install
   else
